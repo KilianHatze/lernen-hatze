@@ -1,0 +1,362 @@
+{
+ "id": "nw",
+ "kurz": "NW",
+ "titel": "Analyse und Entwicklung von Netzwerken",
+ "teil": "Abschlussprüfung Teil 2",
+ "gewicht": 10,
+ "minuten": 90,
+ "format": "Eine Situation, 4 Aufgaben mit je 25 Punkten, offene Teilaufgaben.",
+ "hinweis": "Das bundesweite Format ließ sich nicht an einer Originalprüfung prüfen. Die Simulation folgt dem Aufbau der AP1.",
+ "status": "fertig",
+ "themen": [
+  {
+   "id": "nw.subnetting",
+   "titel": "Subnetting und VLSM",
+   "kurz": "Netze nach Bedarf aufteilen, Teilnehmer inkl. Gateway",
+   "lf": [
+    "LF3",
+    "LF9"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "nw.ipv6",
+   "titel": "IPv6 vertieft",
+   "kurz": "Präfixe aufteilen, EUI-64, Adresstypen, Dual-Stack",
+   "lf": [
+    "LF3",
+    "LF9"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "nw.routing",
+   "titel": "Routing",
+   "kurz": "Routingtabelle, Default-Route, statisch und dynamisch",
+   "lf": [
+    "LF9"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "nw.switching",
+   "titel": "Switching und Campus-Netz",
+   "kurz": "VLAN, STP, ARP, Core/Distribution/Access, Redundanz",
+   "lf": [
+    "LF9"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "nw.sicherheit",
+   "titel": "Firewall, DMZ und VPN",
+   "kurz": "Stateful, DPI, ACL, DMZ-Dienste, IPsec",
+   "lf": [
+    "LF9",
+    "LF11b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "nw.schutzbedarf",
+   "titel": "Schutzbedarf und Risiko",
+   "kurz": "Gefährdungen, Risikomatrix, Maßnahmen",
+   "lf": [
+    "LF4",
+    "LF11b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "nw.datenbank",
+   "titel": "Datenbanken",
+   "kurz": "ER-Modell, SQL, NoSQL",
+   "lf": [
+    "LF5",
+    "LF8"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "nw.epk",
+   "titel": "Geschäftsprozesse und EPK",
+   "kurz": "Ereignisgesteuerte Prozessketten lesen und erstellen",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "nw.programm",
+   "titel": "Programmieren und Schnittstellen",
+   "kurz": "Funktionen über Listen, REST und HTTP",
+   "lf": [
+    "LF5",
+    "LF8"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "nw.betrieb",
+   "titel": "Betrieb und Verfügbarkeit",
+   "kurz": "Virtualisierung, Monitoring, USV, Fernwartung",
+   "lf": [
+    "LF10b",
+    "LF11b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "nw.kosten",
+   "titel": "Kosten und Wirtschaftlichkeit",
+   "kurz": "Abschreibung, Personalkosten, Amortisation",
+   "lf": [
+    "LF12b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "nw.wlan",
+   "titel": "WLAN im Unternehmen",
+   "kurz": "Platzierung, Frequenzbänder, WPA3 Personal und Enterprise",
+   "lf": [
+    "LF3",
+    "LF9"
+   ],
+   "prio": 3
+  }
+ ],
+ "dateien": [
+  "aufgaben_netz.json",
+  "aufgaben_sicherheit.json",
+  "aufgaben_daten.json",
+  "aufgaben_interaktiv.json"
+ ],
+ "simulationen": [
+  {
+   "id": "nw.sim.a",
+   "titel": "Getränkegroßhandel",
+   "szenario": "Du bist Fachinformatikerin bzw. Fachinformatiker bei der Moselquell KG, einem Getränkegroßhandel mit 380 Mitarbeitenden. Das gewachsene Firmennetz besteht aus einem einzigen IPv4-Netz hinter einem DSL-Router. Du sollst es von Grund auf als hierarchisches Campus-Netz mit VLANs, IPv6 und neuer Firewall erneuern.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – Netzwerk planen",
+     "situation": "Das neue Netz wird segmentiert und hierarchisch aufgebaut. Der Provider vergibt auch ein IPv6-Präfix.",
+     "varianten": [
+      [
+       "nw.subnetting.01",
+       "nw.switching.01",
+       "nw.subnetting.04",
+       "gen:ipv6.aufteilen"
+      ],
+      [
+       "gen:vlsm.tabelle",
+       "nw.switching.01",
+       "nw.switching.02",
+       "nw.switching.03",
+       "nw.ipv6.05",
+       "nw.subnetting.05"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – Fehleranalyse",
+     "situation": "Nach der Konfiguration eines Distribution-Switches erreichen Endgeräte in einem VLAN den Rest des Netzes nicht.",
+     "varianten": [
+      [
+       "nw.routing.02",
+       "nw.routing.03",
+       "nw.routing.04",
+       "nw.routing.01",
+       "nw.routing.05",
+       "nw.switching.06",
+       "nw.switching.04",
+       "gen:routing.lpm",
+       "nw.switching.10",
+       "nw.routing.09",
+       "nw.routing.08",
+       "nw.switching.07"
+      ],
+      [
+       "nw.routing.06",
+       "nw.routing.07",
+       "nw.routing.02",
+       "nw.switching.07",
+       "nw.switching.05",
+       "nw.switching.08",
+       "nw.routing.08",
+       "nw.subnetting.08",
+       "gen:routing.lpm",
+       "nw.routing.09"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – IT-Sicherheit planen",
+     "situation": "Eine neue Firewall-Appliance ersetzt den bisherigen Internet-Router, und auf den Distribution-Switches werden ACLs eingerichtet.",
+     "varianten": [
+      [
+       "nw.sicherheit.01",
+       "nw.sicherheit.02",
+       "nw.sicherheit.03",
+       "nw.sicherheit.04",
+       "nw.sicherheit.05",
+       "nw.sicherheit.06",
+       "nw.wlan.03",
+       "nw.sicherheit.08",
+       "nw.wlan.04",
+       "nw.wlan.07"
+      ],
+      [
+       "nw.schutzbedarf.04",
+       "nw.schutzbedarf.06",
+       "nw.sicherheit.07",
+       "nw.sicherheit.09",
+       "nw.sicherheit.08",
+       "nw.wlan.02",
+       "nw.wlan.05",
+       "nw.schutzbedarf.08",
+       "nw.schutzbedarf.09",
+       "nw.wlan.04",
+       "nw.schutzbedarf.07"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Schnittstellen und Kosten",
+     "situation": "Die neuen Access-Switches haben eine REST-API. Außerdem soll die Geschäftsführung die Kosten der Erneuerung kennen.",
+     "varianten": [
+      [
+       "nw.programm.01",
+       "nw.programm.03",
+       "nw.kosten.01",
+       "nw.kosten.03",
+       "nw.kosten.06",
+       "nw.programm.08",
+       "nw.kosten.08",
+       "nw.kosten.05"
+      ],
+      [
+       "nw.programm.02",
+       "nw.kosten.02",
+       "gen:afa.anteilig",
+       "nw.programm.07",
+       "nw.kosten.04",
+       "nw.kosten.07"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nw.sim.b",
+   "titel": "Zweitstandort",
+   "szenario": "Die Albrecht Kunststofftechnik GmbH (70 Mitarbeitende) eröffnet einen zweiten Standort, der ausschließlich IPv6 nutzt; der Hauptstandort bleibt vorerst bei IPv4. Beide Standorte werden verbunden, Prozesse werden modelliert und eine Datenbank für Netzinventar und Qualitätsdaten entsteht.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – IPv6 und Standortkopplung",
+     "situation": "Der neue Standort erhält vom Provider ein eigenes IPv6-Präfix und soll dauerhaft mit dem Hauptstandort verbunden werden.",
+     "varianten": [
+      [
+       "nw.ipv6.01",
+       "nw.ipv6.03",
+       "nw.ipv6.08",
+       "nw.sicherheit.07",
+       "nw.sicherheit.08",
+       "nw.sicherheit.09",
+       "nw.ipv6.07",
+       "gen:ipv6.eui64",
+       "nw.ipv6.09"
+      ],
+      [
+       "nw.ipv6.04",
+       "nw.ipv6.06",
+       "nw.ipv6.08",
+       "nw.ipv6.10",
+       "nw.sicherheit.08",
+       "nw.ipv6.07",
+       "nw.routing.05",
+       "nw.ipv6.02",
+       "nw.ipv6.09"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – WLAN und Betrieb",
+     "situation": "Am neuen Standort gibt es WLAN für Mitarbeitende und Gäste. Die Server werden virtualisiert und aus der Ferne betreut.",
+     "varianten": [
+      [
+       "nw.wlan.01",
+       "nw.wlan.02",
+       "nw.wlan.03",
+       "nw.betrieb.01",
+       "nw.betrieb.04",
+       "nw.betrieb.08",
+       "nw.wlan.05",
+       "nw.wlan.07",
+       "nw.betrieb.09",
+       "nw.betrieb.03"
+      ],
+      [
+       "nw.wlan.06",
+       "nw.betrieb.07",
+       "nw.betrieb.05",
+       "nw.betrieb.02",
+       "nw.betrieb.03",
+       "nw.wlan.04",
+       "gen:usv.leistung",
+       "nw.betrieb.08"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – Datenbank",
+     "situation": "Eine Datenbank soll das Netzinventar beider Standorte verwalten und Messwerte der Qualitätskontrolle aufnehmen.",
+     "varianten": [
+      [
+       "nw.datenbank.01",
+       "nw.datenbank.02",
+       "nw.datenbank.03",
+       "nw.datenbank.04",
+       "nw.datenbank.05",
+       "nw.datenbank.09",
+       "nw.programm.05"
+      ],
+      [
+       "nw.datenbank.07",
+       "nw.datenbank.08",
+       "nw.datenbank.06",
+       "nw.datenbank.05",
+       "nw.datenbank.02",
+       "nw.datenbank.09"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Prozesse",
+     "situation": "Bestellungen und Störungen sollen künftig standardisiert ablaufen und als EPK dokumentiert werden.",
+     "varianten": [
+      [
+       "nw.epk.04",
+       "nw.epk.01",
+       "nw.epk.05",
+       "nw.epk.02",
+       "nw.epk.03",
+       "nw.programm.06",
+       "nw.epk.07"
+      ],
+      [
+       "nw.epk.06",
+       "nw.epk.01",
+       "nw.epk.05",
+       "nw.epk.07",
+       "nw.programm.09",
+       "nw.programm.07",
+       "nw.epk.08"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "karten": "karten.json"
+}

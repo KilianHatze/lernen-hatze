@@ -1,0 +1,499 @@
+{
+ "id": "ap1",
+ "kurz": "AP1",
+ "titel": "Einrichten eines IT-gestützten Arbeitsplatzes",
+ "teil": "Abschlussprüfung Teil 1",
+ "gewicht": 20,
+ "minuten": 90,
+ "format": "Eine Situation, 4 Aufgaben mit je etwa 25 Punkten, offene Teilaufgaben. Taschenrechner erlaubt.",
+ "hinweis": "Nachgebildet nach der bundesweiten AP1 (Herbst 2021). Einige IHKs kündigen an, die Prüfung künftig am Computer durchzuführen – frag bei deiner IHK nach dem aktuellen Stand.",
+ "status": "fertig",
+ "themen": [
+  {
+   "id": "ap1.projekt",
+   "titel": "Projekt und Netzplan",
+   "kurz": "Projektmerkmale, SMART-Ziele, Netzplan mit Puffern und kritischem Pfad",
+   "lf": [
+    "B3"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ap1.beschaffung",
+   "titel": "Anforderungen und Angebotsvergleich",
+   "kurz": "Anforderungen ableiten, Angebote quantitativ vergleichen, Nutzwertanalyse",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.kalkulation",
+   "titel": "Handelskalkulation",
+   "kurz": "Bezugs-, Verkaufs-, Rückwärts- und Differenzkalkulation",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.vertrag",
+   "titel": "Angebot, Kaufvertrag, Wareneingang",
+   "kurz": "Verbindliches Angebot, Zustandekommen des Kaufvertrags, Wareneingangsprüfung, Mängel",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ap1.hardware",
+   "titel": "Hardware, Daten und Energie",
+   "kurz": "Komponenten auswählen, Datenmengen, Wirkungsgrad, Stromkosten, P = U · I",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ap1.organisation",
+   "titel": "Unternehmen und Organisation",
+   "kurz": "Organigramme, Stellenarten, Rechtsformen, Kennzahlen",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ap1.support",
+   "titel": "Support und ITIL",
+   "kurz": "Event, Incident, Service Request, SLA, Priorisierung, Schulung",
+   "lf": [
+    "LF6"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ap1.ipv4",
+   "titel": "IPv4 und Subnetze",
+   "kurz": "Netz-ID, Broadcast, Hostbereich, Gateway, private Adressen",
+   "lf": [
+    "LF3"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.ipv6",
+   "titel": "IPv6",
+   "kurz": "Kürzen, Adresstypen, Präfixe aufteilen, Konfiguration",
+   "lf": [
+    "LF3"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.netzfehler",
+   "titel": "Fehlersuche im Netz",
+   "kurz": "OSI-Schichten, Diagnosebefehle, falsche Konfigurationen erkennen",
+   "lf": [
+    "LF3"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.wlan",
+   "titel": "WLAN und Verkabelung",
+   "kurz": "WLAN-Standards, Frequenzen, Sicherheit, PoE, Kupfer und LWL",
+   "lf": [
+    "LF3"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.schutzbedarf",
+   "titel": "Schutzziele und Schutzbedarf",
+   "kurz": "Vertraulichkeit, Integrität, Verfügbarkeit einstufen und begründen",
+   "lf": [
+    "LF4"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.sicherheit",
+   "titel": "IT-Sicherheit und Datenschutz",
+   "kurz": "Ransomware, Passwörter, Zugriffsschutz, DSGVO",
+   "lf": [
+    "LF4"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.verfuegbarkeit",
+   "titel": "RAID, Backup und USV",
+   "kurz": "RAID-Kapazität, Backup-Konzept, Verfügbarkeit, USV",
+   "lf": [
+    "LF4"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ap1.datenbank",
+   "titel": "ER-Modell und Relationen",
+   "kurz": "Entitäten, Kardinalitäten, Relationenschema, Schlüssel, Datentypen",
+   "lf": [
+    "LF5"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.sql",
+   "titel": "SQL",
+   "kurz": "Abfragen, Aggregatfunktionen, Datensätze einfügen, ändern, löschen",
+   "lf": [
+    "LF5"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.datenformate",
+   "titel": "XML, JSON und CSV",
+   "kurz": "Datensätze in Austauschformaten darstellen, wohlgeformt und valide",
+   "lf": [
+    "LF5"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ap1.programm",
+   "titel": "Pseudocode und Programmlogik",
+   "kurz": "Algorithmen lesen, Fehler finden, Funktionen entwerfen",
+   "lf": [
+    "LF5"
+   ],
+   "prio": 1
+  }
+ ],
+ "dateien": [
+  "aufgaben_kaufmaennisch.json",
+  "aufgaben_netz.json",
+  "aufgaben_sicherheit.json",
+  "aufgaben_software.json",
+  "aufgaben_interaktiv.json"
+ ],
+ "simulationen": [
+  {
+   "id": "ap1.sim.a",
+   "titel": "Tierarztpraxis",
+   "szenario": "Die Tierarztpraxis Rheinblick mit 12 Mitarbeitenden zieht in ein neues Praxisgebäude. Du bist Auszubildende bzw. Auszubildender bei der Nordlicht IT GmbH, die den Umzug plant und umsetzt: neue Arbeitsplätze, ein neues Netz mit IPv4 und IPv6, Datenschutz und Datensicherung für Kunden-, Tier- und Befunddaten.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – Projekt und Beschaffung",
+     "situation": "Für den Umzug wird ein kleines Projekt aufgesetzt. Außerdem werden neue Arbeitsplatzrechner beschafft.",
+     "varianten": [
+      [
+       "ap1.projekt.02",
+       "ap1.projekt.05",
+       "ap1.projekt.07",
+       "ap1.beschaffung.04",
+       "gen:nwa",
+       "ap1.beschaffung.08",
+       "ap1.projekt.04",
+       "ap1.vertrag.01"
+      ],
+      [
+       "ap1.projekt.10",
+       "ap1.projekt.06",
+       "ap1.projekt.11",
+       "gen:kalk.vergleich",
+       "ap1.beschaffung.05",
+       "ap1.vertrag.02",
+       "ap1.projekt.09"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – Arbeitsplätze und Energie",
+     "situation": "Die Praxis achtet auf die laufenden Kosten. Die neuen Arbeitsplätze sollen sparsam sein, und das Team muss eingewiesen werden.",
+     "varianten": [
+      [
+       "gen:energie.netzteil",
+       "gen:energie.amortisation",
+       "ap1.hardware.03",
+       "gen:energie.steckdose",
+       "ap1.programm.02",
+       "ap1.hardware.05"
+      ],
+      [
+       "ap1.hardware.01",
+       "ap1.hardware.02",
+       "ap1.hardware.04",
+       "ap1.support.07",
+       "ap1.support.06",
+       "ap1.hardware.10"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – Netzwerk im neuen Gebäude",
+     "situation": "Im neuen Gebäude wird das Netz neu aufgebaut. Die Praxis nutzt künftig IPv4 und IPv6 parallel.",
+     "varianten": [
+      [
+       "gen:ipv4.tabelle",
+       "ap1.ipv6.06",
+       "ap1.ipv6.05",
+       "ap1.netzfehler.01",
+       "ap1.ipv4.06"
+      ],
+      [
+       "ap1.ipv4.01",
+       "gen:ipv6.kuerzen",
+       "gen:ipv6.voll",
+       "ap1.ipv4.10",
+       "ap1.wlan.01",
+       "ap1.wlan.04",
+       "ap1.ipv6.10",
+       "ap1.netzfehler.04"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Datenschutz und Datensicherheit",
+     "situation": "In der Praxissoftware liegen Kunden- und Tierdaten sowie Befunde. Die Praxisleitung möchte wissen, wie gut die Daten geschützt sind.",
+     "varianten": [
+      [
+       "ap1.schutzbedarf.08",
+       "ap1.sicherheit.03",
+       "ap1.sicherheit.04",
+       "ap1.verfuegbarkeit.01",
+       "ap1.sicherheit.09",
+       "ap1.schutzbedarf.02",
+       "ap1.schutzbedarf.03"
+      ],
+      [
+       "ap1.schutzbedarf.11",
+       "ap1.sicherheit.01",
+       "gen:raid.vergleich",
+       "ap1.verfuegbarkeit.04",
+       "ap1.verfuegbarkeit.05",
+       "ap1.sicherheit.05",
+       "ap1.schutzbedarf.06",
+       "ap1.sicherheit.10",
+       "ap1.schutzbedarf.04"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ap1.sim.b",
+   "titel": "Steuerkanzlei",
+   "szenario": "Die Steuerkanzlei Albers & Partner eröffnet eine Filiale mit 18 Arbeitsplätzen. Die Nordlicht IT GmbH stattet die Filiale aus, richtet Netz und WLAN ein, übernimmt den Support und entwickelt ein kleines Ticketsystem. Du unterstützt die Projektleitung.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – Beschaffung und Kalkulation",
+     "situation": "Für die Filiale werden Arbeitsplätze und ein Server beschafft und dem Kunden angeboten.",
+     "varianten": [
+      [
+       "ap1.beschaffung.01",
+       "gen:kalk.angebot",
+       "ap1.beschaffung.02",
+       "ap1.vertrag.05",
+       "ap1.kalkulation.05"
+      ],
+      [
+       "ap1.beschaffung.10",
+       "ap1.kalkulation.03",
+       "ap1.vertrag.08",
+       "ap1.vertrag.09",
+       "ap1.beschaffung.09",
+       "ap1.vertrag.03",
+       "ap1.kalkulation.01"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – WLAN und Netzkonfiguration",
+     "situation": "Die Filiale erhält ein Firmen-WLAN und ein Gastnetz. Der Provider stellt auch ein IPv6-Präfix bereit.",
+     "varianten": [
+      [
+       "ap1.wlan.01",
+       "ap1.wlan.02",
+       "ap1.ipv4.02",
+       "gen:ipv6.subnetz",
+       "ap1.wlan.07",
+       "ap1.wlan.03",
+       "ap1.wlan.06"
+      ],
+      [
+       "ap1.wlan.11",
+       "ap1.wlan.08",
+       "gen:ipv4.tabelle",
+       "ap1.ipv6.06",
+       "ap1.ipv4.03",
+       "ap1.netzfehler.03",
+       "ap1.wlan.05",
+       "ap1.ipv4.06"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – Support und Verfügbarkeit",
+     "situation": "Die Nordlicht IT GmbH betreut die Filiale per Ticketsystem. Der Server soll möglichst ausfallsicher laufen.",
+     "varianten": [
+      [
+       "ap1.support.10",
+       "ap1.support.05",
+       "gen:usv.leistung",
+       "ap1.verfuegbarkeit.03",
+       "ap1.verfuegbarkeit.06",
+       "ap1.verfuegbarkeit.07",
+       "ap1.support.01",
+       "ap1.support.02"
+      ],
+      [
+       "gen:aufwand.migration",
+       "ap1.support.06",
+       "ap1.verfuegbarkeit.08",
+       "ap1.verfuegbarkeit.02",
+       "ap1.verfuegbarkeit.11",
+       "ap1.support.09",
+       "ap1.verfuegbarkeit.09",
+       "gen:verfuegbarkeit.minuten"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Ticketsystem und Datenbank",
+     "situation": "Für das Ticketsystem wird eine kleine relationale Datenbank entworfen und abgefragt.",
+     "varianten": [
+      [
+       "ap1.datenbank.01",
+       "ap1.datenbank.02",
+       "ap1.sql.11",
+       "ap1.datenformate.01",
+       "ap1.datenbank.03",
+       "ap1.sql.08",
+       "ap1.sql.13"
+      ],
+      [
+       "ap1.datenbank.07",
+       "ap1.sql.06",
+       "ap1.sql.07",
+       "ap1.sql.10",
+       "ap1.programm.05",
+       "ap1.datenbank.08",
+       "ap1.datenformate.05",
+       "ap1.programm.09",
+       "ap1.datenbank.06"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ap1.sim.c",
+   "titel": "Möbelwerk",
+   "szenario": "Die Möbelwerk Lindgrün GmbH (60 Mitarbeitende, Verwaltung, Fertigungshalle und Versandlager) lässt von der Nordlicht IT GmbH Überwachungskameras im Versandlager einbinden und eine neue Zeiterfassung entwickeln. Außerdem steht eine Umstrukturierung an.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – Unternehmen und Kalkulation",
+     "situation": "Die Geschäftsführung überprüft die Organisation und kalkuliert ein neues Produkt für den Onlineshop.",
+     "varianten": [
+      [
+       "ap1.organisation.02",
+       "ap1.organisation.05",
+       "gen:kalk.rueckwaerts",
+       "ap1.kalkulation.09",
+       "ap1.kalkulation.11",
+       "ap1.organisation.07"
+      ],
+      [
+       "ap1.organisation.03",
+       "ap1.organisation.04",
+       "ap1.kalkulation.06",
+       "ap1.kalkulation.07",
+       "ap1.organisation.06",
+       "ap1.organisation.08"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – Kameras ins Netz einbinden",
+     "situation": "Im Versandlager werden Netzwerkkameras installiert, die Bilder auf einem Server speichern.",
+     "varianten": [
+      [
+       "ap1.ipv4.04",
+       "ap1.ipv4.07",
+       "ap1.netzfehler.09",
+       "ap1.ipv6.05",
+       "gen:daten.bilder",
+       "ap1.netzfehler.02",
+       "gen:ipv6.kuerzen",
+       "ap1.netzfehler.05",
+       "ap1.ipv6.04",
+       "ap1.netzfehler.08"
+      ],
+      [
+       "ap1.ipv4.03",
+       "ap1.ipv4.05",
+       "gen:ipv4.tabelle",
+       "ap1.hardware.07",
+       "ap1.netzfehler.07",
+       "ap1.ipv6.07",
+       "ap1.ipv6.08",
+       "ap1.ipv4.11"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – Schutzbedarf und Datenschutz",
+     "situation": "Die Kamerabilder und die Zeiterfassung enthalten personenbezogene Daten. Der Betriebsrat möchte wissen, wie sie geschützt werden.",
+     "varianten": [
+      [
+       "ap1.schutzbedarf.09",
+       "ap1.sicherheit.06",
+       "ap1.sicherheit.02",
+       "ap1.schutzbedarf.11",
+       "gen:passwort.kombinationen",
+       "ap1.sicherheit.07",
+       "ap1.schutzbedarf.10",
+       "ap1.sicherheit.10"
+      ],
+      [
+       "ap1.schutzbedarf.08",
+       "ap1.schutzbedarf.06",
+       "ap1.sicherheit.03",
+       "ap1.sicherheit.01",
+       "ap1.sicherheit.08",
+       "ap1.sicherheit.11",
+       "ap1.schutzbedarf.07",
+       "ap1.schutzbedarf.05"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Zeiterfassung entwickeln",
+     "situation": "Die neue Zeiterfassung speichert Buchungen zuerst lokal und überträgt sie dann an den Server.",
+     "varianten": [
+      [
+       "ap1.programm.06",
+       "ap1.programm.01",
+       "ap1.datenformate.08",
+       "ap1.datenformate.03",
+       "ap1.datenformate.04",
+       "ap1.programm.07"
+      ],
+      [
+       "ap1.programm.03",
+       "ap1.datenbank.05",
+       "ap1.datenformate.02",
+       "ap1.sql.12",
+       "ap1.programm.08",
+       "ap1.programm.10"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "karten": "karten.json"
+}

@@ -1,0 +1,359 @@
+{
+ "id": "ka",
+ "kurz": "KA",
+ "titel": "Konzeption und Administration von IT-Systemen",
+ "teil": "Abschlussprüfung Teil 2",
+ "gewicht": 10,
+ "minuten": 90,
+ "format": "Eine Situation, 4 Aufgaben mit je 25 Punkten, offene Teilaufgaben.",
+ "hinweis": "Das bundesweite Format ließ sich nicht an einer Originalprüfung prüfen. Die Simulation folgt dem Aufbau der AP1.",
+ "status": "fertig",
+ "themen": [
+  {
+   "id": "ka.subnetting",
+   "titel": "Subnetting und VLSM",
+   "kurz": "Netze lückenlos aufteilen, Präfixe, Hostbereiche",
+   "lf": [
+    "LF3",
+    "LF9"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ka.vlan",
+   "titel": "VLAN und Switching",
+   "kurz": "VLAN-Planung, tagged/untagged, Konfiguration",
+   "lf": [
+    "LF9"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ka.dmz",
+   "titel": "DMZ, Firewall und ACL",
+   "kurz": "Ein- und zweistufige DMZ, Firewall-Arten, Zugriffslisten",
+   "lf": [
+    "LF9",
+    "LF11b"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ka.wlan",
+   "titel": "WLAN-Planung",
+   "kurz": "Accesspoints auswählen, Ausleuchtung, Störquellen, PoE",
+   "lf": [
+    "LF9"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ka.dienste",
+   "titel": "DNS, DHCP und NAT",
+   "kurz": "Namensauflösung, Record-Typen, Adressvergabe, private Adressen",
+   "lf": [
+    "LF3",
+    "LF9"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ka.krypto",
+   "titel": "Verschlüsselung, VPN, Authentifizierung",
+   "kurz": "Symmetrisch, asymmetrisch, hybrid, TLS, VPN, AAA, 2FA",
+   "lf": [
+    "LF11b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ka.virtualisierung",
+   "titel": "Virtualisierung und Cloud",
+   "kurz": "Hypervisor, VM oder Container, Hochverfügbarkeit",
+   "lf": [
+    "LF9",
+    "LF10b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ka.iot",
+   "titel": "IoT und cyber-physische Systeme",
+   "kurz": "Sensoren, MQTT, Funktechniken",
+   "lf": [
+    "LF7"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ka.sql",
+   "titel": "Datenbanken und SQL",
+   "kurz": "SQL mit Unterabfragen, ER-Modell, m:n auflösen",
+   "lf": [
+    "LF5",
+    "LF8"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ka.projekt",
+   "titel": "Projektplanung",
+   "kurz": "Netzplan, kritischer Pfad, Projektphasen",
+   "lf": [
+    "B3",
+    "LF12b"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "ka.wirtschaft",
+   "titel": "Wirtschaftlichkeit",
+   "kurz": "Wirtschaftlichkeit, Amortisation, TCO, ROI",
+   "lf": [
+    "LF12b"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "ka.softwareentwicklung",
+   "titel": "Vorgehensmodelle und UML",
+   "kurz": "Wasserfall, Scrum, Kanban, Klassendiagramm",
+   "lf": [
+    "B3"
+   ],
+   "prio": 3
+  }
+ ],
+ "dateien": [
+  "aufgaben_netz.json",
+  "aufgaben_systeme.json",
+  "aufgaben_projekt.json",
+  "aufgaben_interaktiv.json"
+ ],
+ "simulationen": [
+  {
+   "id": "ka.sim.a",
+   "titel": "Neubau Präzisionsteile",
+   "szenario": "Die Kessler Präzisionsteile GmbH (140 Mitarbeitende) bezieht einen Neubau für Entwicklung und Vertrieb. Den gesamten IT-Betrieb übernimmt künftig die Nordlicht IT GmbH, bei der du arbeitest. Du planst mit deinem Auszubildenden Max das Netz, die Server-Virtualisierung und die Gebäudesensorik.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – Netzwerk planen",
+     "situation": "Das neue Netz nutzt den Adressbereich 10.0.0.0/8 und wird in VLANs gegliedert.",
+     "varianten": [
+      [
+       "ka.subnetting.01",
+       "ka.subnetting.02",
+       "ka.dienste.03",
+       "ka.dienste.01",
+       "gen:subnetz.gleich",
+       "ka.vlan.04"
+      ],
+      [
+       "gen:vlsm.tabelle",
+       "ka.vlan.02",
+       "ka.dienste.04",
+       "ka.dienste.05",
+       "ka.dienste.06",
+       "ka.vlan.01",
+       "gen:ipv6.subnetz"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – Virtualisierung",
+     "situation": "Alle Serverdienste laufen künftig auf einer Linux-basierten Virtualisierungsplattform mit zwei Hosts.",
+     "varianten": [
+      [
+       "ka.virtualisierung.01",
+       "ka.virtualisierung.02",
+       "ka.virtualisierung.03",
+       "ka.virtualisierung.04",
+       "ka.virtualisierung.06",
+       "ka.dmz.01",
+       "ka.dmz.03",
+       "ka.dmz.04",
+       "ka.virtualisierung.07",
+       "ka.virtualisierung.09",
+       "ka.dmz.07"
+      ],
+      [
+       "ka.virtualisierung.05",
+       "ka.virtualisierung.03",
+       "ka.krypto.06",
+       "ka.dmz.05",
+       "ka.dmz.06",
+       "ka.krypto.08",
+       "ka.virtualisierung.07",
+       "ka.dmz.09",
+       "ka.virtualisierung.09",
+       "ka.virtualisierung.01"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – Gebäudesensorik",
+     "situation": "Raumsensoren der Nordlicht IT melden Messwerte per Funk an eine Gebäudesteuerung, die MQTT nutzt.",
+     "varianten": [
+      [
+       "ka.iot.01",
+       "ka.iot.02",
+       "ka.iot.03",
+       "ka.iot.07",
+       "ka.krypto.05",
+       "ka.iot.08",
+       "ka.wlan.08"
+      ],
+      [
+       "ka.iot.04",
+       "ka.iot.05",
+       "ka.iot.02",
+       "ka.iot.07",
+       "ka.wlan.07",
+       "ka.iot.08",
+       "ka.dienste.06",
+       "gen:Anzahl der Schlüssel",
+       "ka.wlan.08"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Datenbank und Projekt",
+     "situation": "Eine zentrale Datenbank verwaltet Sensoren und Hersteller. Parallel wird die Übernahme des IT-Betriebs geplant.",
+     "varianten": [
+      [
+       "ka.sql.01",
+       "ka.sql.02",
+       "ka.projekt.01",
+       "ka.projekt.02",
+       "ka.wirtschaft.03"
+      ],
+      [
+       "ka.sql.03",
+       "ka.sql.05",
+       "ka.projekt.03",
+       "ka.projekt.06",
+       "ka.wirtschaft.02",
+       "gen:roi",
+       "ka.wirtschaft.07",
+       "ka.sql.08",
+       "ka.projekt.02"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ka.sim.b",
+   "titel": "Berufskolleg",
+   "szenario": "Das neu gebaute Berufskolleg am Kanal braucht eine IT-Infrastruktur: ein Verwaltungsnetz für 10 Personen, ein Netz für 80 Lehrkräfte und ein pädagogisches Netz, in das bis zu 1.100 Schülerinnen und Schüler mit eigenen Geräten (BYOD) per WLAN dürfen. Dein Systemhaus übernimmt Konzeption und Einrichtung.",
+   "aufgaben": [
+    {
+     "titel": "1. Aufgabe – Netzkonzept",
+     "situation": "Die drei Netze sollen getrennt sein. Zur Verfügung steht 192.168.128.0/19.",
+     "varianten": [
+      [
+       "ka.subnetting.08",
+       "ka.vlan.02",
+       "ka.vlan.05",
+       "ka.dmz.01",
+       "ka.dmz.08",
+       "ka.vlan.03",
+       "ka.subnetting.04",
+       "ka.vlan.08",
+       "ka.subnetting.07"
+      ],
+      [
+       "ka.subnetting.03",
+       "ka.vlan.07",
+       "ka.subnetting.05",
+       "ka.subnetting.06",
+       "ka.subnetting.07",
+       "ka.vlan.04"
+      ]
+     ]
+    },
+    {
+     "titel": "2. Aufgabe – WLAN und Anmeldung",
+     "situation": "Lehrkräfte und Schüler nutzen das WLAN mit eigenen Geräten. Die Anmeldung soll personenbezogen sein.",
+     "varianten": [
+      [
+       "ka.wlan.01",
+       "ka.wlan.05",
+       "ka.wlan.06",
+       "ka.krypto.03",
+       "ka.krypto.05",
+       "ka.krypto.08",
+       "ka.wlan.07",
+       "ka.wlan.08",
+       "ka.krypto.07"
+      ],
+      [
+       "ka.wlan.02",
+       "ka.wlan.03",
+       "ka.wlan.04",
+       "ka.krypto.04",
+       "ka.krypto.06",
+       "ka.krypto.07",
+       "ka.wlan.06",
+       "ka.wlan.07",
+       "ka.krypto.08",
+       "ka.wlan.08"
+      ]
+     ]
+    },
+    {
+     "titel": "3. Aufgabe – Zugriffsrechte und Datenbank",
+     "situation": "Netzzugänge, VLAN-Zuweisungen und die Haustechnik werden in Datenbanken verwaltet.",
+     "varianten": [
+      [
+       "ka.sql.03",
+       "ka.sql.04",
+       "ka.sql.05",
+       "ka.sql.06",
+       "ka.sql.07",
+       "ka.sql.08",
+       "ka.sql.09",
+       "ka.vlan.06"
+      ],
+      [
+       "ka.sql.01",
+       "ka.sql.02",
+       "ka.sql.07",
+       "ka.sql.03",
+       "ka.sql.08",
+       "ka.sql.09"
+      ]
+     ]
+    },
+    {
+     "titel": "4. Aufgabe – Projektplanung",
+     "situation": "Konzeption und Einrichtung sollen reibungslos verlaufen und werden als Projekt geplant.",
+     "varianten": [
+      [
+       "ka.projekt.05",
+       "ka.projekt.06",
+       "ka.projekt.03",
+       "ka.softwareentwicklung.01",
+       "ka.softwareentwicklung.05",
+       "gen:Netzplan: FEZ und SAZ",
+       "ka.projekt.08"
+      ],
+      [
+       "ka.softwareentwicklung.04",
+       "ka.projekt.04",
+       "ka.wirtschaft.01",
+       "ka.wirtschaft.03",
+       "ka.wirtschaft.04",
+       "ka.softwareentwicklung.02",
+       "gen:Netzplan: Projektdauer und Puffer",
+       "ka.wirtschaft.08",
+       "ka.softwareentwicklung.06",
+       "ka.softwareentwicklung.07"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "karten": "karten.json"
+}

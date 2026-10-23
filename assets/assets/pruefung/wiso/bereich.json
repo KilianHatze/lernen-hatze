@@ -1,0 +1,167 @@
+{
+ "id": "wiso",
+ "kurz": "WiSo",
+ "titel": "Wirtschafts- und Sozialkunde",
+ "teil": "Abschlussprüfung Teil 2",
+ "gewicht": 10,
+ "minuten": 60,
+ "format": "25 gebundene Aufgaben à 4 Punkte: Einfachauswahl, Mehrfachauswahl und kurze Rechnungen.",
+ "hinweis": "Laut IHK-Erläuterungen ist die WiSo für Fachinformatiker gebunden (keine Freitexte). Die genaue Aufgabenzahl der bundesweiten Prüfung kann abweichen. Gesetzliche Werte wie Beitragssätze und Mindestlohn ändern sich – der Stand steht jeweils dabei.",
+ "status": "fertig",
+ "themen": [
+  {
+   "id": "wiso.ausbildung",
+   "titel": "Berufsausbildung",
+   "kurz": "BBiG, Ausbildungsvertrag, Rechte und Pflichten, Prüfungen",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "wiso.arbeitsvertrag",
+   "titel": "Arbeitsvertrag und Kündigung",
+   "kurz": "Nachweisgesetz, Urlaub, Kündigungsfristen, Kündigungsschutz, Zeugnis",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "wiso.arbeitsschutz",
+   "titel": "Arbeitsschutz",
+   "kurz": "Arbeitszeit, Jugendarbeitsschutz, Mutterschutz, Unfallverhütung",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "wiso.mitbestimmung",
+   "titel": "Mitbestimmung",
+   "kurz": "Betriebsrat, JAV, Betriebsvereinbarung",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "wiso.tarif",
+   "titel": "Tarifvertrag und Arbeitskampf",
+   "kurz": "Tarifautonomie, Tarifarten, Streik, Schlichtung",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "wiso.sozialversicherung",
+   "titel": "Sozialversicherung",
+   "kurz": "Fünf Zweige, Träger, Beiträge, Leistungen, private Vorsorge",
+   "lf": [],
+   "prio": 1
+  },
+  {
+   "id": "wiso.entgelt",
+   "titel": "Entgelt und Abrechnung",
+   "kurz": "Brutto, Netto, Abzüge, Lohnformen",
+   "lf": [],
+   "prio": 3
+  },
+  {
+   "id": "wiso.unternehmen",
+   "titel": "Unternehmen und Rechtsformen",
+   "kurz": "Ziele, Rechtsformen, Haftung, Gründung",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 2
+  },
+  {
+   "id": "wiso.kaufvertrag",
+   "titel": "Kaufvertrag und Verbraucherschutz",
+   "kurz": "Zustandekommen, Besitz und Eigentum, Mängelrechte, Widerruf",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "wiso.markt",
+   "titel": "Markt und Preisbildung",
+   "kurz": "Angebot und Nachfrage, Marktformen, Wettbewerb",
+   "lf": [
+    "LF1"
+   ],
+   "prio": 1
+  },
+  {
+   "id": "wiso.wirtschaftspolitik",
+   "titel": "Wirtschaftsordnung und -politik",
+   "kurz": "Soziale Marktwirtschaft, Konjunktur, Inflation, Geld und Kredit",
+   "lf": [],
+   "prio": 1
+  },
+  {
+   "id": "wiso.nachhaltigkeit",
+   "titel": "Nachhaltigkeit und Umweltschutz",
+   "kurz": "Umweltschutz im Betrieb, Kreislaufwirtschaft, Green IT",
+   "lf": [
+    "LF2"
+   ],
+   "prio": 3
+  }
+ ],
+ "dateien": [
+  "aufgaben_arbeitswelt.json",
+  "aufgaben_wirtschaft.json",
+  "aufgaben_interaktiv.json"
+ ],
+ "simulationen": [
+  {
+   "id": "wiso.sim.a",
+   "titel": "Gebundene Prüfung",
+   "minuten": 60,
+   "szenario": "Gebundene WiSo-Prüfung: 25 Aufgaben zu Ausbildung und Arbeitswelt, Sozialversicherung, Unternehmen, Verträgen und Wirtschaft. Jede Aufgabe bringt 4 Punkte. Bei Mehrfachauswahl musst du alle richtigen Antworten markieren. Bei jedem Durchlauf werden andere Aufgaben gezogen.",
+   "aufgaben": [
+    {
+     "titel": "Teil 1 – Ausbildung und Arbeitswelt",
+     "ziehen": 9,
+     "ausThemen": [
+      "wiso.ausbildung",
+      "wiso.arbeitsvertrag",
+      "wiso.arbeitsschutz",
+      "wiso.mitbestimmung",
+      "wiso.tarif"
+     ]
+    },
+    {
+     "titel": "Teil 2 – Soziale Sicherung und Entgelt",
+     "ziehen": 5,
+     "ausThemen": [
+      "wiso.sozialversicherung",
+      "wiso.entgelt"
+     ]
+    },
+    {
+     "titel": "Teil 3 – Unternehmen und Verträge",
+     "ziehen": 5,
+     "ausThemen": [
+      "wiso.unternehmen",
+      "wiso.kaufvertrag"
+     ]
+    },
+    {
+     "titel": "Teil 4 – Wirtschaft und Nachhaltigkeit",
+     "ziehen": 6,
+     "ausThemen": [
+      "wiso.markt",
+      "wiso.wirtschaftspolitik",
+      "wiso.nachhaltigkeit"
+     ]
+    }
+   ]
+  }
+ ],
+ "karten": "karten.json"
+}
