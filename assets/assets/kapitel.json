@@ -1,0 +1,801 @@
+{
+ "B1": {
+  "IT-Vokabular": [
+   "B1-39391736",
+   "B1-832b068a",
+   "B1-52f135cc",
+   "B1-bacecdaf",
+   "B1-6aaa8543"
+  ],
+  "Abkürzungen": [
+   "B1-741cf91e",
+   "B1-ad60f784"
+  ],
+  "Grammatik für den IT-Alltag": [
+   "B1-d7d42148",
+   "B1-74ec3b0b",
+   "B1-69f94c73",
+   "B1-ac62c6c4",
+   "B1-687fa218",
+   "B1-efce7b04",
+   "B1-b68f06e2"
+  ],
+  "False Friends": [
+   "B1-27fe6d76",
+   "B1-64f1b176",
+   "B1-d6865860",
+   "B1-f7455b33"
+  ],
+  "E-Mails": [
+   "B1-6e33f2b0",
+   "B1-488a9a29",
+   "B1-ca5df63a",
+   "B1-b36b0e64",
+   "B1-b57acbe0"
+  ],
+  "Telefon und Support": [
+   "B1-9231d125",
+   "B1-8875426e",
+   "B1-4e67d1fb",
+   "B1-899523b9"
+  ],
+  "Technische Texte lesen": [
+   "B1-32ccb2fc",
+   "B1-bf8f3e6e",
+   "B1-5575c2fc"
+  ]
+ },
+ "B2": {
+  "Die sechs Themenblöcke": [
+   "B2-61d736bd",
+   "B2-b2361dd7",
+   "B2-bf9fc797",
+   "B2-ddf5ef92",
+   "B2-6080bc78",
+   "B2-0632c1bb",
+   "B2-13994cb2",
+   "B2-35b4fe26",
+   "B2-65a60542",
+   "B2-5229a4f3",
+   "B2-e1006282",
+   "B2-11000baa",
+   "gen:Excel: WENN",
+   "gen:Excel: ZÄHLENWENN"
+  ],
+  "DIN 5008 – der Geschäftsbrief": [
+   "B2-23721853",
+   "B2-8e0be350",
+   "B2-fdff6cbd",
+   "B2-d80b275f",
+   "B2-d65ae857"
+  ],
+  "Aufbewahrungsfristen": [
+   "B2-74508c49",
+   "B2-2d90df70",
+   "B2-e19033ac",
+   "B2-0fdd12fd",
+   "B2-ae2f68db"
+  ],
+  "Selbstorganisation": [
+   "B2-53739ed8",
+   "B2-ff2bc0c9",
+   "B2-c8c1437a",
+   "B2-3225a4cb",
+   "B2-82a86bf0"
+  ],
+  "Besprechungen und Protokolle": [
+   "B2-12f421f4",
+   "B2-f5ddfea1",
+   "B2-56cd6db9"
+  ]
+ },
+ "B3": {
+  "Grundlagen": [
+   "B3-faf822f5",
+   "B3-5dd264e9"
+  ],
+  "Projektphasen": [
+   "B3-03568b05",
+   "B3-2e71f3b0",
+   "B3-ce708d7d"
+  ],
+  "Projektstart": [
+   "B3-5adfc565",
+   "B3-6415e09d",
+   "B3-09a21b83",
+   "B3-fecdc470"
+  ],
+  "Projektziele und Projektantrag": [
+   "B3-b77e3f71",
+   "B3-9678057b"
+  ],
+  "Projektorganisation": [
+   "B3-7d2e9b29",
+   "B3-6d2fd37b"
+  ],
+  "Projektplanung": [
+   "B3-5af3364c",
+   "B3-0a17ba28",
+   "B3-f2611373",
+   "B3-dcf07c8f",
+   "B3-475463b0",
+   "B3-e06eab61",
+   "B3-879f4d00",
+   "B3-a0fb9530",
+   "gen:Netzplan: Projektdauer und Puffer",
+   "gen:Netzplan: FEZ und SAZ"
+  ],
+  "Risikomanagement": [
+   "B3-5c5c5d3c",
+   "B3-38df679b"
+  ],
+  "Steuerung und Abschluss": [
+   "B3-2bea04db"
+  ],
+  "Klassisch und agil": [
+   "B3-c1e25eef",
+   "B3-aaed121b",
+   "B3-b9d24ab3",
+   "B3-8b887948",
+   "B3-65d1e9c0"
+  ],
+  "Qualitätsmanagement": [
+   "B3-64bf5ce8",
+   "B3-fe12cc61"
+  ]
+ },
+ "LF1": {
+  "Das Unternehmen": [
+   "LF1-0c2aca9a",
+   "LF1-0aa02fb1"
+  ],
+  "Unternehmensziele und Kennzahlen": [
+   "LF1-9b5d11a5",
+   "LF1-a018a5eb",
+   "LF1-40f13f72",
+   "LF1-8232e32c",
+   "LF1-bef54978",
+   "LF1-168992fc",
+   "gen:Eigenkapitalrentabilität",
+   "gen:Wirtschaftlichkeit"
+  ],
+  "Rechtsformen": [
+   "LF1-6c183b02",
+   "LF1-e9311a94",
+   "LF1-8852e96a",
+   "LF1-b42550bc",
+   "LF1-530bcad0",
+   "LF1-99dc624a"
+  ],
+  "Aufbauorganisation": [
+   "LF1-3b6f8060",
+   "LF1-f8a3588b",
+   "LF1-aa2188eb"
+  ],
+  "Ablauforganisation und Geschäftsprozesse": [
+   "LF1-d1d37483"
+  ],
+  "Markt und Wettbewerb": [
+   "LF1-17f442f2",
+   "LF1-d12b61d3"
+  ],
+  "Die eigene Rolle im Betrieb": [
+   "LF1-86bd9816",
+   "LF1-cb200f0f",
+   "LF1-7097d7dd",
+   "LF1-d58f53c5"
+  ],
+  "Mitbestimmung und Tarifvertrag": [
+   "LF1-1d2d8e92",
+   "LF1-f52963f6",
+   "LF1-dbb50d0e",
+   "LF1-ae86f0ff",
+   "LF1-c7b848d7",
+   "LF1-c6b19752",
+   "LF1-7d98246e"
+  ]
+ },
+ "LF2": {
+  "Kundenanforderungen erfassen": [
+   "LF2-bd5010a7",
+   "LF2-df0a4b6c",
+   "LF2-9366213c"
+  ],
+  "Hardware": [
+   "LF2-208a2b4f",
+   "LF2-bbb26178",
+   "LF2-f4fe42a8",
+   "LF2-80832328",
+   "LF2-659de8e2",
+   "LF2-8e6e84ed",
+   "LF2-aef0d8d9",
+   "LF2-05294a4e"
+  ],
+  "Daten, Einheiten und Zahlensysteme": [
+   "LF2-ff27954c",
+   "LF2-afb4af8c",
+   "LF2-7a6b576d",
+   "LF2-6b3383b0",
+   "LF2-5d6c2176",
+   "LF2-f74ba7ca",
+   "gen:Übertragungszeit",
+   "gen:Binär in Dezimal",
+   "gen:Dezimal in Hexadezimal"
+  ],
+  "Software und Lizenzen": [
+   "LF2-7d0a7e62",
+   "LF2-49fa4945",
+   "LF2-ad6589cb"
+  ],
+  "Beschaffung": [
+   "LF2-aaf497cb",
+   "LF2-53a938fc",
+   "LF2-c60ea97b",
+   "LF2-4638d27a",
+   "LF2-6aea6a2a",
+   "LF2-4a7c52d0",
+   "LF2-5636ca2d",
+   "LF2-660bb587",
+   "LF2-c56ef92a",
+   "gen:Bezugskalkulation",
+   "gen:Verkaufskalkulation im Hundert"
+  ],
+  "Ergonomie und Arbeitsschutz": [
+   "LF2-33b44654",
+   "LF2-6273c7a1"
+  ],
+  "Green IT und Wirtschaftlichkeit": [
+   "LF2-2d0edc62",
+   "gen:Stromkosten"
+  ]
+ },
+ "LF3": {
+  "Netzwerkgrundlagen": [
+   "LF3-791f1810",
+   "LF3-b9ccfc6c",
+   "LF3-206edc22",
+   "LF3-fad9f9d0",
+   "LF3-d0607687"
+  ],
+  "OSI-Modell und TCP/IP": [
+   "LF3-a81c16c4",
+   "LF3-a48af6d4",
+   "LF3-e03ff111",
+   "LF3-c6a0af4e"
+  ],
+  "IPv4 und Subnetting": [
+   "LF3-220976f1",
+   "LF3-a30ff216",
+   "LF3-89431f61",
+   "LF3-91e53f48",
+   "LF3-0c90ba04",
+   "LF3-9629d0f2",
+   "LF3-8c7569f7",
+   "gen:Netz-ID und Broadcast",
+   "gen:Nutzbare Hosts",
+   "gen:Subnetzmaske zum Präfix"
+  ],
+  "IPv6": [
+   "LF3-84093ef4",
+   "LF3-12c7149a",
+   "LF3-03de2918"
+  ],
+  "Netzwerkdienste": [
+   "LF3-0f4d2cff",
+   "LF3-caa4e62c",
+   "LF3-aaa82129",
+   "LF3-1de7cfe0",
+   "LF3-ed96fe92",
+   "LF3-d4689821",
+   "LF3-aa988303",
+   "LF3-f8fbba3b"
+  ],
+  "Client einbinden und Fehlersuche": [
+   "LF3-c477e678",
+   "LF3-b4aa5d75",
+   "LF3-baa3efdb"
+  ],
+  "WLAN": [
+   "LF3-42646093",
+   "LF3-a8f39c68"
+  ]
+ },
+ "LF4": {
+  "Grundbegriffe": [
+   "LF4-a90173a8",
+   "LF4-6d2483f5",
+   "LF4-f00d79ab"
+  ],
+  "BSI IT-Grundschutz": [
+   "LF4-ef4a3bd3"
+  ],
+  "Vorgehen nach BSI-Standard 200-2": [
+   "LF4-f250d3f0"
+  ],
+  "Schutzbedarfsfeststellung": [
+   "LF4-56a3e89e",
+   "LF4-a18eb35a",
+   "LF4-8761c531",
+   "LF4-b6516f65"
+  ],
+  "Gefährdungen": [
+   "LF4-390c37c7",
+   "LF4-cd60fb3c",
+   "LF4-7d924536",
+   "LF4-0eef2519"
+  ],
+  "Risikoanalyse": [
+   "LF4-17776c4d"
+  ],
+  "Schutzmaßnahmen": [
+   "LF4-0c7a3504",
+   "LF4-fe90e2d1",
+   "LF4-3f0a5b4d",
+   "LF4-78974235",
+   "LF4-376a2c2f",
+   "LF4-545645fb",
+   "LF4-4807a321",
+   "LF4-461a40b7",
+   "LF4-ae6dfd0e",
+   "LF4-1a0ac355",
+   "LF4-74f01f34",
+   "LF4-3edd975e",
+   "LF4-76e2ab99",
+   "LF4-f7846d5b",
+   "LF4-41caf6b2",
+   "gen:RAID-Kapazität"
+  ],
+  "Datenschutz nach DSGVO": [
+   "LF4-3363389b",
+   "LF4-a369c814",
+   "LF4-1e7a8ed4",
+   "LF4-20a19ecc",
+   "LF4-d6b79ba5"
+  ]
+ },
+ "LF5": {
+  "Daten und Datenformate": [
+   "LF5-e1b0cf0a",
+   "LF5-fc018ce2"
+  ],
+  "Programmiergrundlagen": [
+   "LF5-71539953",
+   "LF5-6853e7fd",
+   "LF5-d256a7f8",
+   "LF5-4d3d27d0",
+   "gen:Modulo"
+  ],
+  "Algorithmen und Kontrollstrukturen": [
+   "LF5-07c1ac49",
+   "LF5-a888ee6b",
+   "LF5-e0bb0604",
+   "LF5-10f853ec",
+   "LF5-2c1b4ac8",
+   "LF5-3bc2c7b1",
+   "LF5-f2ca620b",
+   "LF5-d6587ec5",
+   "gen:Schleife durchrechnen"
+  ],
+  "Datenbanken und Datenmodellierung": [
+   "LF5-c93d0080",
+   "LF5-8a4fbc2c",
+   "LF5-9c10d948",
+   "LF5-ba4f8263"
+  ],
+  "Normalisierung": [
+   "LF5-58f63fc7",
+   "LF5-d2272330",
+   "LF5-fc4ff399",
+   "LF5-778d8851"
+  ],
+  "SQL": [
+   "LF5-72c3ce47",
+   "LF5-cfcf571c",
+   "LF5-63c538f9",
+   "LF5-17096022",
+   "LF5-775af67e",
+   "LF5-fbb816c3"
+  ],
+  "Software testen": [
+   "LF5-3773786c",
+   "LF5-67f1d0d4",
+   "LF5-347636d3",
+   "LF5-06746987",
+   "gen:Schreibtischtest Überstunden"
+  ]
+ },
+ "LF6": {
+  "IT-Service-Management und ITIL": [
+   "LF6-e14f2814",
+   "LF6-0d5b2bf8",
+   "LF6-bd1796f1"
+  ],
+  "Arten von Anfragen": [
+   "LF6-bbebcf22",
+   "LF6-f7eef56b",
+   "LF6-37068c13",
+   "LF6-ed169565",
+   "LF6-3efbfc1c"
+  ],
+  "Ticketsystem": [
+   "LF6-a62ab9a9"
+  ],
+  "Priorisierung": [
+   "LF6-7fdf9548",
+   "LF6-bfa12c27"
+  ],
+  "Support-Level und Eskalation": [
+   "LF6-e38c44e6",
+   "LF6-d3d9de76",
+   "LF6-4e0bb268"
+  ],
+  "Service Level Agreements": [
+   "LF6-a4da529b",
+   "LF6-f04966d2",
+   "LF6-a33c8945",
+   "LF6-9acf8058",
+   "LF6-11f92d47",
+   "LF6-8b24db57",
+   "LF6-2c125436",
+   "LF6-8ded721f",
+   "LF6-29b610d3",
+   "gen:Erlaubte Ausfallzeit",
+   "gen:Verfügbarkeit aus MTBF und MTTR"
+  ],
+  "Kennzahlen im Support": [
+   "LF6-7c18e331",
+   "LF6-74fd550d",
+   "gen:First Contact Resolution"
+  ],
+  "Kommunikation mit dem Kunden": [
+   "LF6-7a915736",
+   "LF6-d760a709",
+   "LF6-98f7c17b"
+  ],
+  "Systematische Fehleranalyse": [
+   "LF6-6d8bf26f",
+   "LF6-77fb4179"
+  ],
+  "Vertragsarten im Service": [
+   "LF6-a1f15721",
+   "LF6-15031e6d"
+  ]
+ },
+ "LF7": {
+  "Cyber-physische Systeme": [
+   "LF7-efb1d6a9",
+   "LF7-b645fdc7"
+  ],
+  "Sensoren und Aktoren": [
+   "LF7-25d0df70",
+   "LF7-6538fcc0",
+   "LF7-84c2ce25",
+   "LF7-4920663b",
+   "LF7-0287dcad"
+  ],
+  "Elektrotechnische Grundlagen": [
+   "LF7-15a6249e",
+   "LF7-3bf72646",
+   "LF7-39c377b6",
+   "LF7-813f25ca",
+   "LF7-bb3cf6c9",
+   "LF7-d5f7922c",
+   "LF7-343c9ee8",
+   "LF7-e8f81bfc",
+   "LF7-9bb66605",
+   "LF7-fc9a4a25",
+   "gen:Vorwiderstand LED",
+   "gen:Parallelschaltung",
+   "gen:A/D-Wandler",
+   "gen:Akkulaufzeit"
+  ],
+  "Hardware": [
+   "LF7-4db8714a",
+   "LF7-cd128a84"
+  ],
+  "Schnittstellen und Bussysteme": [
+   "LF7-6a504ebb",
+   "LF7-16764fda",
+   "LF7-bdf7f337",
+   "LF7-334c4a63"
+  ],
+  "Vernetzung im Internet of Things": [
+   "LF7-4667c8e8",
+   "LF7-73345959",
+   "LF7-eca0b3d4",
+   "LF7-be1da9d1",
+   "LF7-f18b8cab",
+   "LF7-a735f4a8",
+   "LF7-c8b5c7f8",
+   "LF7-4d4853c7"
+  ],
+  "Sicherheit": [
+   "LF7-455b063d",
+   "LF7-5701330c"
+  ]
+ },
+ "LF8": {
+  "Datenquellen und Datenintegration": [
+   "LF8-7d28e9c2",
+   "LF8-44d33ce5",
+   "LF8-becac7f0",
+   "LF8-c50481f8"
+  ],
+  "Architekturen": [
+   "LF8-7a88ad7a"
+  ],
+  "Schnittstellen und Webservices": [
+   "LF8-3b362c21",
+   "LF8-da97108e",
+   "LF8-8ba2ca53",
+   "LF8-6c119cfd",
+   "LF8-74d97ac9",
+   "LF8-f65118da",
+   "LF8-0d4e50ab",
+   "LF8-b8075f46",
+   "LF8-22a9518a",
+   "LF8-37b99292",
+   "LF8-295eebbc"
+  ],
+  "Datenbanken vertieft": [
+   "LF8-4d60833c",
+   "LF8-153d87cb",
+   "LF8-39e0d02e",
+   "LF8-08dd5791",
+   "LF8-9c8f266f"
+  ],
+  "Speicherlösungen und Freigaben": [
+   "LF8-3c9b485a",
+   "LF8-b4121ecb",
+   "LF8-b436b89a",
+   "LF8-38c85b3e",
+   "LF8-fc2f7fcb",
+   "LF8-37b07d50",
+   "LF8-9d848dab",
+   "LF8-d6d0e01f",
+   "LF8-b3814fe0",
+   "gen:Effektive Berechtigung"
+  ],
+  "Cloud Computing": [
+   "LF8-f6fe3939",
+   "LF8-393a40c7",
+   "LF8-c7aadb47",
+   "LF8-b822ae81",
+   "gen:Upload-Dauer"
+  ],
+  "Datenschutz bei der Bereitstellung": [
+   "LF8-793c1139"
+  ]
+ },
+ "LF9": {
+  "Switching und VLANs": [
+   "LF9-3a1cdd0c",
+   "LF9-571298ef",
+   "LF9-66999756",
+   "LF9-42160314",
+   "LF9-12094278",
+   "LF9-2326a2a7",
+   "LF9-0878004d",
+   "LF9-a0972326",
+   "gen:PoE-Budget"
+  ],
+  "Subnetting mit VLSM": [
+   "LF9-3e2efe74",
+   "LF9-1bc0a8f7",
+   "gen:Kleinstes passendes Präfix",
+   "gen:VLSM: nächstes Netz"
+  ],
+  "Routing": [
+   "LF9-46ba3409",
+   "LF9-19947a76",
+   "LF9-742512e3",
+   "LF9-c0c175b2"
+  ],
+  "Netzwerksicherheit": [
+   "LF9-7e8f7b81",
+   "LF9-9e4394d4",
+   "LF9-8557cf47",
+   "LF9-919ef23c",
+   "LF9-9a13c419",
+   "LF9-4b5f38e0",
+   "LF9-e236a964"
+  ],
+  "Netzwerkdienste": [
+   "LF9-33e01462",
+   "LF9-e81c84b9",
+   "LF9-f11c4258",
+   "LF9-50431cc9",
+   "LF9-809e5252",
+   "LF9-13426544"
+  ],
+  "Verzeichnisdienst: Active Directory": [
+   "LF9-d996f0a7",
+   "LF9-c107a4bc",
+   "LF9-d6d289a7",
+   "LF9-13eff9e7"
+  ],
+  "Virtualisierung": [
+   "LF9-628af2ac",
+   "LF9-b97f00c7",
+   "LF9-8c91013c",
+   "LF9-565762d9"
+  ]
+ },
+ "LF10b": {
+  "Serverbetriebssysteme und Rollen": [
+   "LF10b-0359bd24",
+   "LF10b-f6e3534a"
+  ],
+  "Linux-Administration": [
+   "LF10b-e29fa8fa",
+   "LF10b-b050f811",
+   "LF10b-3313baae",
+   "LF10b-f56476da",
+   "LF10b-f20817b8",
+   "LF10b-285502f6",
+   "LF10b-ee2c1c2e",
+   "LF10b-1275b0b5",
+   "LF10b-3b7a47b5",
+   "LF10b-3a54abc1",
+   "LF10b-2ffabc87",
+   "LF10b-28ca5e99",
+   "LF10b-d85a3d87",
+   "LF10b-9179e569",
+   "gen:Linux-Rechte in Oktal",
+   "gen:Oktal in Rechte",
+   "gen:umask"
+  ],
+  "Webdienste und TLS": [
+   "LF10b-0d722926",
+   "LF10b-512054d9",
+   "LF10b-fe2d4e02",
+   "LF10b-ea057358",
+   "LF10b-ea4b6cff",
+   "LF10b-864efe02",
+   "LF10b-9dbc8df7",
+   "LF10b-e68bdcc3"
+  ],
+  "Skripte": [
+   "LF10b-7e4987f8",
+   "LF10b-294ea6f1",
+   "LF10b-bf9b038a",
+   "LF10b-1d134c00",
+   "LF10b-eff503f8",
+   "LF10b-508c3ae5",
+   "gen:cron-Ausdruck"
+  ],
+  "Configuration Management und Infrastructure as Code": [
+   "LF10b-e0bcecf6",
+   "LF10b-5d793350"
+  ],
+  "Versionsverwaltung mit Git": [
+   "LF10b-98d1b366",
+   "LF10b-c6068664",
+   "LF10b-154193ce"
+  ],
+  "Betrieb": [
+   "LF10b-3c499ad6",
+   "LF10b-c03bbaae",
+   "gen:Speicher für Sicherungen"
+  ]
+ },
+ "LF11b": {
+  "Informationssicherheitsmanagement": [
+   "LF11b-95bf2e43",
+   "LF11b-38b39335",
+   "LF11b-a46b74f0"
+  ],
+  "Angriffe und Abwehr": [
+   "LF11b-a6f9bf1f",
+   "LF11b-2fcfb219",
+   "LF11b-80a1eb87",
+   "LF11b-722f8ac4",
+   "LF11b-791f8f06",
+   "LF11b-e2a845c5",
+   "LF11b-c40ba4e6",
+   "LF11b-5cbe3fcf"
+  ],
+  "Kryptografie": [
+   "LF11b-b15795db",
+   "LF11b-ee8e99f1",
+   "LF11b-0b39cd49",
+   "LF11b-8b415cba",
+   "LF11b-2b6fc262",
+   "LF11b-e3f936fa",
+   "LF11b-49d241e4",
+   "LF11b-37c9b8ee",
+   "LF11b-e7997fa5",
+   "LF11b-eaaae790",
+   "LF11b-a5881771",
+   "LF11b-d52d159c",
+   "LF11b-3a15589d",
+   "gen:Anzahl der Schlüssel"
+  ],
+  "Angriffe erkennen und überwachen": [
+   "LF11b-6c3da00f",
+   "LF11b-ad44e1e8",
+   "LF11b-bd790df3",
+   "LF11b-8cd537b7",
+   "LF11b-bfad3a97"
+  ],
+  "Schwachstellenmanagement": [
+   "LF11b-a4ed9191",
+   "LF11b-0ef3920a",
+   "LF11b-f029f669",
+   "LF11b-68b2e5c4",
+   "LF11b-51ffb92f"
+  ],
+  "Sicherheitsvorfälle behandeln": [
+   "LF11b-5c369621",
+   "LF11b-3c2e780b"
+  ],
+  "Notfallmanagement und Verfügbarkeit": [
+   "LF11b-7f31fee4",
+   "LF11b-99e30626",
+   "LF11b-4b85f994",
+   "LF11b-fb8bb578",
+   "LF11b-a7cec63d",
+   "LF11b-da554f20",
+   "LF11b-618e875c",
+   "LF11b-90048a3e",
+   "gen:Verfügbarkeit in Reihe",
+   "gen:Verfügbarkeit parallel"
+  ]
+ },
+ "LF12b": {
+  "Anforderungen analysieren": [
+   "LF12b-44465dc6",
+   "LF12b-befd268b"
+  ],
+  "Lösungsvarianten bewerten": [
+   "LF12b-4fbc9c0b",
+   "LF12b-55324db4",
+   "LF12b-505ad194",
+   "LF12b-e8beaa81",
+   "LF12b-b16dae50",
+   "gen:Break-even",
+   "gen:Amortisation"
+  ],
+  "Angebot erstellen": [
+   "LF12b-1f222436",
+   "LF12b-12e4a815",
+   "LF12b-3892a627",
+   "LF12b-d2d0b798",
+   "LF12b-03ed4015",
+   "LF12b-8e8eb2ca"
+  ],
+  "Planung und Umsetzung": [
+   "LF12b-802c67f9",
+   "LF12b-6e8f1364",
+   "LF12b-a835f47f",
+   "LF12b-1638664c",
+   "LF12b-e7eb2854"
+  ],
+  "Test und Qualitätssicherung": [
+   "LF12b-55c4ff93",
+   "LF12b-da0fd64c",
+   "LF12b-90679943"
+  ],
+  "Dokumentation und Schulung": [
+   "LF12b-699b8635",
+   "LF12b-8aac89a5"
+  ],
+  "Übergabe und Abnahme": [
+   "LF12b-91648e02",
+   "LF12b-ef91cb09",
+   "LF12b-b18ad3df"
+  ],
+  "Projektabschluss": [
+   "LF12b-b338b240",
+   "gen:Nachkalkulation"
+  ],
+  "Die betriebliche Projektarbeit": [
+   "LF12b-e8007d3e",
+   "LF12b-f34ffbca",
+   "LF12b-3b0546f4",
+   "LF12b-62a2feb8",
+   "LF12b-74b6ee2a",
+   "LF12b-7a97fef5"
+  ]
+ }
+}
